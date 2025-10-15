@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Orologeria Galessi</title>
-    <link>/it/authors/</link>
+    <link>https://lelegale.github.io/orologeria-galessi/it/authors/</link>
     <description>Recent content in Authors on Orologeria Galessi</description>
     <generator>Hugo</generator>
     <language>it-it</language>
-    <atom:link href="/it/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lelegale.github.io/orologeria-galessi/it/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gabriele Galessi</title>
-      <link>/it/authors/gabriele-galessi/</link>
+      <link>https://lelegale.github.io/orologeria-galessi/it/authors/gabriele-galessi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/it/authors/gabriele-galessi/</guid>
+      <guid>https://lelegale.github.io/orologeria-galessi/it/authors/gabriele-galessi/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>John Doe</title>
-      <link>/it/authors/john-doe/</link>
+      <link>https://lelegale.github.io/orologeria-galessi/it/authors/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/it/authors/john-doe/</guid>
+      <guid>https://lelegale.github.io/orologeria-galessi/it/authors/john-doe/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sam Wilson</title>
-      <link>/it/authors/sam-wilson/</link>
+      <link>https://lelegale.github.io/orologeria-galessi/it/authors/sam-wilson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/it/authors/sam-wilson/</guid>
+      <guid>https://lelegale.github.io/orologeria-galessi/it/authors/sam-wilson/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>William Jacob</title>
-      <link>/it/authors/william-jacob/</link>
+      <link>https://lelegale.github.io/orologeria-galessi/it/authors/william-jacob/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/it/authors/william-jacob/</guid>
+      <guid>https://lelegale.github.io/orologeria-galessi/it/authors/william-jacob/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
   </channel>

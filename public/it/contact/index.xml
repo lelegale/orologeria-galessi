@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contattaci on Orologeria Galessi</title>
-    <link>/it/contact/</link>
+    <link>https://lelegale.github.io/orologeria-galessi/it/contact/</link>
     <description>Recent content in Contattaci on Orologeria Galessi</description>
     <generator>Hugo</generator>
     <language>it-it</language>
-    <atom:link href="/it/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lelegale.github.io/orologeria-galessi/it/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
