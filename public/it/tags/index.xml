@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Orologeria Galessi</title>
-    <link>//localhost:1313/it/tags/</link>
+    <link>/it/tags/</link>
     <description>Recent content in Tags on Orologeria Galessi</description>
     <generator>Hugo</generator>
     <language>it-it</language>
     <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acciaio</title>
-      <link>//localhost:1313/it/tags/acciaio/</link>
+      <link>/it/tags/acciaio/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>//localhost:1313/it/tags/acciaio/</guid>
+      <guid>/it/tags/acciaio/</guid>
       <description></description>
     </item>
     <item>
       <title>Grande (40-43mm)</title>
-      <link>//localhost:1313/it/tags/grande-40-43mm/</link>
+      <link>/it/tags/grande-40-43mm/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>//localhost:1313/it/tags/grande-40-43mm/</guid>
+      <guid>/it/tags/grande-40-43mm/</guid>
       <description></description>
     </item>
     <item>
       <title>Medio (36-39mm)</title>
-      <link>//localhost:1313/it/tags/medio-36-39mm/</link>
+      <link>/it/tags/medio-36-39mm/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>//localhost:1313/it/tags/medio-36-39mm/</guid>
+      <guid>/it/tags/medio-36-39mm/</guid>
       <description></description>
     </item>
     <item>
       <title>Oro Giallo</title>
-      <link>//localhost:1313/it/tags/oro-giallo/</link>
+      <link>/it/tags/oro-giallo/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>//localhost:1313/it/tags/oro-giallo/</guid>
+      <guid>/it/tags/oro-giallo/</guid>
       <description></description>
     </item>
     <item>
       <title>Piccolo (30-35mm)</title>
-      <link>//localhost:1313/it/tags/piccolo-30-35mm/</link>
+      <link>/it/tags/piccolo-30-35mm/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate>
-      <guid>//localhost:1313/it/tags/piccolo-30-35mm/</guid>
+      <guid>/it/tags/piccolo-30-35mm/</guid>
       <description></description>
     </item>
   </channel>

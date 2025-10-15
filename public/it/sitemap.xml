@@ -2,195 +2,195 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/it/</loc>
+    <loc>/it/</loc>
     <lastmod>2022-10-15T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/"
+                href="/it/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/tags/acciaio/</loc>
+    <loc>/it/tags/acciaio/</loc>
     <lastmod>2022-10-15T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/it/categories/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it-it"
-                href="//localhost:1313/it/categories/"
-                />
-  </url><url>
-    <loc>//localhost:1313/it/blog/</loc>
+    <loc>/it/categories/</loc>
     <lastmod>2022-10-15T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/blog/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/blog/"
+                href="/it/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/blog/1500-8/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/blog/16220/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/tags/grande-40-43mm/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/tags/medio-36-39mm/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/tags/oro-giallo/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/tags/piccolo-30-35mm/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/categories/rolex/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/blog/16610/</loc>
-    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/it/tags/</loc>
+    <loc>/it/blog/</loc>
     <lastmod>2022-10-15T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/tags/"
+                href="/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/tags/"
+                href="/it/blog/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/authors/</loc>
+    <loc>/it/blog/1500-8/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/blog/16220/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/tags/grande-40-43mm/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/tags/medio-36-39mm/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/tags/oro-giallo/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/tags/piccolo-30-35mm/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/categories/rolex/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/blog/16610/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/it/tags/</loc>
+    <lastmod>2022-10-15T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/authors/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/authors/"
+                href="/it/tags/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/contact/</loc>
+    <loc>/it/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/contact/"
+                href="/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/contact/"
+                href="/it/authors/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/about/</loc>
+    <loc>/it/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/about/"
+                href="/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/about/"
+                href="/it/contact/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/authors/gabriele-galessi/</loc>
-  </url><url>
-    <loc>//localhost:1313/it/authors/john-doe/</loc>
+    <loc>/it/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/authors/john-doe/"
+                href="/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/authors/john-doe/"
+                href="/it/about/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/pages/</loc>
+    <loc>/it/authors/gabriele-galessi/</loc>
+  </url><url>
+    <loc>/it/authors/john-doe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/pages/"
+                href="/authors/john-doe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/pages/"
+                href="/it/authors/john-doe/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/privacy-policy/</loc>
+    <loc>/it/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/privacy-policy/"
+                href="/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/privacy-policy/"
+                href="/it/pages/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/authors/sam-wilson/</loc>
+    <loc>/it/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/authors/sam-wilson/"
+                href="/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/authors/sam-wilson/"
+                href="/it/privacy-policy/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/sections/</loc>
+    <loc>/it/authors/sam-wilson/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/sections/"
+                href="/authors/sam-wilson/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/sections/"
+                href="/it/authors/sam-wilson/"
                 />
   </url><url>
-    <loc>//localhost:1313/it/servizi/</loc>
-  </url><url>
-    <loc>//localhost:1313/it/authors/william-jacob/</loc>
+    <loc>/it/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/authors/william-jacob/"
+                href="/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="//localhost:1313/it/authors/william-jacob/"
+                href="/it/sections/"
+                />
+  </url><url>
+    <loc>/it/servizi/</loc>
+  </url><url>
+    <loc>/it/authors/william-jacob/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/authors/william-jacob/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="/it/authors/william-jacob/"
                 />
   </url>
 </urlset>
