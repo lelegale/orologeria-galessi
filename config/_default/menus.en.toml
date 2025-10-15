@@ -1,0 +1,53 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[main]]
+name = "Services"
+url = "/services"
+weight = 20
+
+[[main]]
+name = "Collection"
+weight = 30
+
+[[main]]
+parent = "Collection"
+name = "Blog"
+url = "/blog"
+
+[[main]]
+parent = "Collection"
+name = "Brand"
+url = "/categories"
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 40
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 50
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 10
+
+[[footer]]
+name = "Services"
+url = "/services"
+weight = 20
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 30

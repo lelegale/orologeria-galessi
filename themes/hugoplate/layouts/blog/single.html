@@ -1,0 +1,155 @@
+{{ define "main" }}
+<section class="section pt-7">
+  <div class="container">
+    <div class="row justify-center">
+      <article class="lg:col-10">
+
+        {{ $image := .Params.image }}
+        {{ if $image }}
+          <div class="mb-10">
+            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
+          </div>
+        {{ end }}
+
+        <!-- TITOLO COMPOSTO -->
+        <h1 class="h2 mb-2">
+          {{ with .Params.categories }}
+            {{ index . 0 | upper }} –
+          {{ end }}
+          {{ .Title }}
+        </h1>
+
+        <!-- SPECIFICHE TECNICHE -->
+        <ul class="mb-6 text-base text-muted space-y-2">
+          {{ if .Params.referenza }}
+            <li><strong>Referenza:</strong> {{ .Params.referenza }}</li>
+          {{ end }}
+          {{ if .Params.anno }}
+            <li><strong>Anno:</strong> {{ .Params.anno }}</li>
+          {{ end }}
+          {{ if .Params.prezzo }}
+            <li><strong>Prezzo:</strong> <i class="fa-solid fa-euro-sign mr-1" aria-hidden="true"></i>{{ .Params.prezzo }}</li>
+          {{ end }}
+        </ul>
+
+        <!-- PULSANTE RICHIEDI INFORMAZIONI -->
+        <div class="mb-8">
+          <a href="#infoModal" class="btn btn-primary">Richiedi informazioni</a>
+        </div>
+
+        <!-- LINEA ORIZZONTALE CENTRALE -->
+        <div class="flex justify-center mb-8">
+          <div class="w-24 h-px bg-gray-300 dark:bg-gray-600"></div>
+        </div>
+
+        <!-- CONTENUTO DEL POST -->
+        <div class="content mb-10">
+          {{ .Content }}
+        </div>
+
+        <!-- TAGS E CONDIVISIONE -->
+        <div class="row items-start justify-between">
+          {{ $tags := .Params.tags }}
+          {{ if $tags }}
+            <div class="lg:col-6 mb-10 flex items-center lg:mb-0">
+              <h5 class="mr-3">{{ T "tags" }}:</h5>
+              <ul>
+                {{ range $i, $p := $tags }}
+                  <li class="inline-block">
+                    <a
+                      class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                      href="{{ `tags/` | relLangURL }}{{ $p | urlize | lower }}/">
+                      {{ $p | humanize }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+          <div class="lg:col-6 flex items-center lg:justify-end">
+            <h5>{{ T "share" }}:</h5>
+            {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Twitter" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false "Fediverse" false "X" false "Copy" false) }}
+          </div>
+        </div>
+
+        <!-- COMMENTI DISQUS DISATTIVATI -->
+        {{/* Commenti Disqus rimossi */}}
+
+      </article>
+    </div>
+
+    <!-- ARTICOLI CORRELATI -->
+    {{ $related := .Site.RegularPages.Related . | first 10 }}
+    {{ $related = $related | shuffle | first 3 }}
+    {{ with $related }}
+      <div class="section pb-0">
+        <h2 class="h3 mb-12">{{ T "related_posts" }}</h2>
+        <div class="row">
+          {{ range . }}
+            <div class="lg:col-4 md:col-6 mb-14">
+              {{ partial "components/blog-card" . }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+  <!-- MODALE HTML-ONLY -->
+  <div id="infoModal" class="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300:target">
+    <div class="bg-white dark:bg-darkmode-body p-6 rounded-lg w-full max-w-lg relative shadow-lg">
+
+      <!-- CHIUSURA -->
+      <a href="#" class="absolute top-3 right-3 text-2xl text-gray-600 hover:text-black dark:text-gray-300 dark:hover:text-white font-bold">&times;</a>
+
+      <h3 class="text-xl font-semibold mb-2">Siamo a tua disposizione!</h3>
+      <p class="mb-4 text-sm text-gray-700 dark:text-gray-300">
+        Compila il modulo per richiedere informazioni o prendere appuntamento in boutique.
+        Sarà cura dei nostri Consulenti ricontattarti per ogni delucidazione.
+      </p>
+
+<form action="https://formsubmit.co/TUA_EMAIL@example.com" method="POST" class="space-y-3">
+
+  <!-- Anti-spam honeypot -->
+  <input type="text" name="_honey" style="display:none">
+  <!-- Disabilita CAPTCHA -->
+  <input type="hidden" name="_captcha" value="false">
+  <!-- Redirect dopo invio -->
+  <input type="hidden" name="_next" value="https://TUOSITO.COM/grazie/">
+
+  <!-- Dropdown: Tipo di richiesta -->
+  <div>
+    <label for="tipoRichiesta" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+      Tipo di richiesta *
+    </label>
+    <select name="tipoRichiesta" id="tipoRichiesta" required class="w-full border border-gray-300 p-2 rounded bg-white dark:bg-darkmode-light dark:text-white">
+      <option value="" disabled selected>Seleziona un'opzione</option>
+      <option>Richiesta informazioni e disponibilità</option>
+      <option>Richiesta appuntamento</option>
+      <option>Richiesta offerta personalizzata</option>
+      <option>Altre richieste</option>
+    </select>
+  </div>
+
+  <!-- Campi anagrafici -->
+  <div class="flex gap-3">
+    <input type="text" name="nome" placeholder="Nome *" required class="w-1/2 border border-gray-300 p-2 rounded" />
+    <input type="text" name="cognome" placeholder="Cognome *" required class="w-1/2 border border-gray-300 p-2 rounded" />
+  </div>
+
+  <div class="flex gap-3">
+    <input type="email" name="email" placeholder="Email *" required class="w-1/2 border border-gray-300 p-2 rounded" />
+    <input type="tel" name="telefono" placeholder="Telefono *" required class="w-1/2 border border-gray-300 p-2 rounded" />
+  </div>
+
+  <input type="text" name="citta" placeholder="Città *" required class="w-full border border-gray-300 p-2 rounded" />
+
+  <textarea name="messaggio" rows="3" placeholder="Messaggio (facoltativo)" class="w-full border border-gray-300 p-2 rounded"></textarea>
+
+  <button type="submit" class="btn btn-primary w-full mt-2">Invia richiesta</button>
+</form>
+
+    </div>
+  </div>
+</section>
+{{ end }}

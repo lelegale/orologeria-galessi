@@ -1,0 +1,41 @@
+<div class="bg-body dark:bg-darkmode-body">
+  {{ $image := .Params.image }}
+  {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-4 w-full rounded") }}
+  {{ end }}
+
+  <div class="flex justify-between mb-1 font-semibold uppercase text-sm">
+    <div>
+      {{ $categories := .Params.categories }}
+      {{ if $categories }}
+        {{ range $i, $cat := $categories }}
+          <a href="{{ `categories/` | relLangURL }}{{ $cat | urlize | lower }}/" class="me-1">
+            {{ $cat | humanize | upper }}
+          </a>{{ if ne $i (sub (len $categories) 1) }},{{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+    <div>
+      {{ if .Params.prezzo }}
+        <i class="fa-solid fa-euro-sign mr-1" aria-hidden="true"></i>{{ .Params.prezzo }}
+      {{ end }}
+    </div>
+  </div>
+
+  <h4 class="mb-1 font-normal uppercase text-base">
+    <a href="{{ .RelPermalink }}" class="no-underline text-current">
+      {{ .Title }}
+    </a>
+  </h4>
+
+  {{ if .Params.referenza }}
+    <p class="text-gray-500 flex items-center text-sm mt-1">
+      <i class="fa-solid fa-tag mr-2" aria-hidden="true"></i>
+      {{ .Params.referenza }}
+    </p>
+  {{ end }}
+
+  <a class="btn btn-outline-primary btn-sm mt-3" href="{{ .RelPermalink }}">
+    {{ T "read_more" }}
+  </a>
+</div>

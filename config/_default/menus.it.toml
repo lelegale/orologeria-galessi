@@ -1,0 +1,53 @@
+############# Italian navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[main]]
+name = "Servizi"
+url = "/services"
+weight = 20
+
+[[main]]
+name = "Collezione"
+weight = 30
+
+[[main]]
+parent = "Collezione"
+name = "Blog"
+url = "/blog"
+
+[[main]]
+parent = "Collezione"
+name = "Brand"
+url = "/categories"
+
+[[main]]
+name = "Chi Siamo"
+url = "/about"
+weight = 40
+
+[[main]]
+name = "Contatti"
+url = "/contact"
+weight = 50
+
+
+# footer menu
+[[footer]]
+name = "Chi Siamo"
+url = "/about"
+weight = 10
+
+[[footer]]
+name = "Servizi"
+url = "/services"
+weight = 20
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 30

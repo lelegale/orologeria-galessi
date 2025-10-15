@@ -1,0 +1,51 @@
+<div class="bg-body dark:bg-darkmode-body">
+  {{ $image := .Params.image }}
+  {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
+  {{ end }}
+  <h5 class="mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h5>
+
+  <div class="flex justify-between items-center mb-4">
+    {{ $categories := .Params.categories }}
+    {{ if $categories }}
+      <ul class="inline-flex space-x-2">
+        <li class="flex items-center">
+          <i class="fa-solid fa-trademark mr-1"></i>
+          {{ range $i, $p := $categories }}
+            <a
+              href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+              class="ms-1"
+              >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+                {{ "," }}
+              {{ end }}
+            </a>
+          {{ end }}
+        </li>
+      </ul>
+    {{ end }}
+
+    {{ if .Params.prezzo }}
+      <p class="text-right whitespace-nowrap">
+        <i class="fa-solid fa-euro-sign mr-2" aria-hidden="true"></i>
+        {{ .Params.prezzo }}
+      </p>
+    {{ end }}
+  </div>
+
+  {{ if .Params.referenza }}
+    <p class="mb-2">
+      <i class="fa-solid fa-tag mr-2" aria-hidden="true"></i>
+      {{ .Params.referenza }}
+    </p>
+  {{ end }}
+
+  <p class="mb-6">{{ .Summary | plainify | truncate 100 "..." }}</p>
+
+  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+    {{ T "read_more" }}
+  </a>
+</div>
